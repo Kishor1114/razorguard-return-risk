@@ -18,7 +18,7 @@ import pandas as pd
 import shap
 from catboost import CatBoostClassifier
 
-from src.validator import (
+from validator import (
     validate_input_order,
     validate_prediction,
     validate_llm_explanation,
